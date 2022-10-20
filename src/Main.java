@@ -58,6 +58,35 @@ public class Main {
         System.out.println( "За 1 месяц работы машина произвела бутылок " + bottleMakingMachinePerformance30Day + " штук." );
 
         System.out.println("Exercise 5");
+        byte totalTinOfPaint = 120;
+        byte whitePaintPerClassroom = 2;
+        byte brownPaintPerClassroom = 4;
+        int totalNumberPaintPerClassroom = whitePaintPerClassroom + brownPaintPerClassroom;
+        int totalNumberClassroom = totalTinOfPaint / totalNumberPaintPerClassroom;
+        int totalNumberWhitePaint = totalNumberClassroom * whitePaintPerClassroom;
+        int totalNumberBrownPaint = totalNumberClassroom * brownPaintPerClassroom;
+
+        System.out.println("В школе, где " + totalNumberClassroom + " классов, нужно " + totalNumberWhitePaint + " банок белой краски и " + totalNumberBrownPaint + " банок коричневой краски.");
+
+        System.out.println("Exercise 6");
+        byte weightOneBanana = 80;
+        byte banana = 5;
+        int totalWeightBanana = weightOneBanana * banana;
+        int milkMl = 200;
+        byte weight100MlMilk = 105;
+        int totalWeightMilk = milkMl / 2 * weight100MlMilk;
+        byte iceCream = 2;
+        byte weightIceCream = 100;
+        int totalWeightIceCream = iceCream * weightIceCream;
+        byte eggs = 4;
+        byte weightEggs = 70;
+        int totalWeightEggs = eggs * weightEggs;
+        int totalWeightAllProductGramm = totalWeightBanana + totalWeightMilk + totalWeightIceCream + totalWeightEggs;
+        System.out.println("Вес спорт-завтрака составляет " + totalWeightAllProductGramm + " грамм.");
+        float totalWeightAllProductKg = totalWeightAllProductGramm / 1000f;
+        System.out.println("Вес спорт-завтрака составляет " + totalWeightAllProductKg + " килограмм.");
+
+        System.out.println("Exercise 7");
 
 
 
