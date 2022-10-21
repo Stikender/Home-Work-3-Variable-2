@@ -87,8 +87,44 @@ public class Main {
         System.out.println("Вес спорт-завтрака составляет " + totalWeightAllProductKg + " килограмм.");
 
         System.out.println("Exercise 7");
+        byte loseWeightAthleteKg = 7;
+        long loseWeightAthleteGramm = loseWeightAthleteKg * 1000l;
+        System.out.println("Спорсмену необходимо сбросить " + loseWeightAthleteGramm + " грамм.");
+        short weightLossGramm = 250;
+        long daysWeightLossGramm = loseWeightAthleteGramm / weightLossGramm;
+        System.out.println("Если спортсмен будет терять по " + weightLossGramm + " в день, то он похудеет на " + loseWeightAthleteKg + " кг. за " + daysWeightLossGramm + " дней.");
+        short weightLossGramm2 = 500;
+        long daysWeightLossGramm2 = loseWeightAthleteGramm / weightLossGramm2;
+        System.out.println("Если спортсмен будет терять по " + weightLossGramm2 + " в день, то он похудеет на " + loseWeightAthleteKg + " кг. за " + daysWeightLossGramm2 + " дней.");
+        long averageDaysWeightLossGramm = (daysWeightLossGramm + daysWeightLossGramm2) / 2;
+        System.out.println("В среднем спорстмен сбросит " + loseWeightAthleteKg + " кг. за " + averageDaysWeightLossGramm + " дней.");
 
+        System.out.println("Exercise 8");
+        int salaryMasha = 67760;
+        int salaryIncreasePercentage = 10;
+        int salaryIncreaseAmountMasha = salaryMasha * salaryIncreasePercentage / 100;
+        int salaryMashaAfterRaise = salaryMasha + salaryIncreaseAmountMasha;
+        byte monthYear = 12;
+        int salaryMashaYear = salaryMasha * monthYear;
+        int salaryMashaYearAfterRaise = salaryMashaAfterRaise * monthYear;
+        int salaryDifferenceMashaAfterRaise = salaryMashaYearAfterRaise % salaryMashaYear;
+        System.out.println("Маша теперь получает " + salaryMashaAfterRaise + " рублей. Годовой доход вырос на " + salaryDifferenceMashaAfterRaise + " рублей.");
 
+        int salaryDenic = 83690;
+        int salaryIncreaseAmountDenic = salaryDenic * salaryIncreasePercentage / 100;
+        int salaryDenicAfterRaise = salaryDenic + salaryIncreaseAmountDenic;
+        int salaryDenicYear = salaryDenic * monthYear;
+        int salaryDenicYearAfterRaise = salaryDenicAfterRaise * monthYear;
+        int salaryDifferenceDenicAfterRaise = salaryDenicYearAfterRaise % salaryDenicYear;
+        System.out.println("Денис теперь получает " + salaryDenicAfterRaise + " рублей. Годовой доход вырос на " + salaryDifferenceDenicAfterRaise + " рублей.");
+
+        int salaryKris = 76230;
+        int salaryIncreaseAmountKris = salaryKris * salaryIncreasePercentage / 100;
+        int salaryKrisAfterRaise = salaryKris + salaryIncreaseAmountKris;
+        int salaryKrisYear = salaryKris * monthYear;
+        int salaryKrisYearAfterRaise = salaryKrisAfterRaise * monthYear;
+        int salaryDifferenceKrisAfterRaise = salaryKrisYearAfterRaise % salaryKrisYear;
+        System.out.println("Кристина теперь получает " + salaryKrisAfterRaise + " рублей. Годовой доход вырос на " + salaryDifferenceKrisAfterRaise + " рублей.");
 
     }
 }
