@@ -58,8 +58,73 @@ public class Main {
         System.out.println( "За 1 месяц работы машина произвела бутылок " + bottleMakingMachinePerformance30Day + " штук." );
 
         System.out.println("Exercise 5");
+        byte totalTinOfPaint = 120;
+        byte whitePaintPerClassroom = 2;
+        byte brownPaintPerClassroom = 4;
+        int totalNumberPaintPerClassroom = whitePaintPerClassroom + brownPaintPerClassroom;
+        int totalNumberClassroom = totalTinOfPaint / totalNumberPaintPerClassroom;
+        int totalNumberWhitePaint = totalNumberClassroom * whitePaintPerClassroom;
+        int totalNumberBrownPaint = totalNumberClassroom * brownPaintPerClassroom;
 
+        System.out.println("В школе, где " + totalNumberClassroom + " классов, нужно " + totalNumberWhitePaint + " банок белой краски и " + totalNumberBrownPaint + " банок коричневой краски.");
 
+        System.out.println("Exercise 6");
+        byte weightOneBanana = 80;
+        byte banana = 5;
+        int totalWeightBanana = weightOneBanana * banana;
+        int milkMl = 200;
+        byte weight100MlMilk = 105;
+        int totalWeightMilk = milkMl / 2 * weight100MlMilk;
+        byte iceCream = 2;
+        byte weightIceCream = 100;
+        int totalWeightIceCream = iceCream * weightIceCream;
+        byte eggs = 4;
+        byte weightEggs = 70;
+        int totalWeightEggs = eggs * weightEggs;
+        int totalWeightAllProductGramm = totalWeightBanana + totalWeightMilk + totalWeightIceCream + totalWeightEggs;
+        System.out.println("Вес спорт-завтрака составляет " + totalWeightAllProductGramm + " грамм.");
+        float totalWeightAllProductKg = totalWeightAllProductGramm / 1000f;
+        System.out.println("Вес спорт-завтрака составляет " + totalWeightAllProductKg + " килограмм.");
+
+        System.out.println("Exercise 7");
+        byte loseWeightAthleteKg = 7;
+        long loseWeightAthleteGramm = loseWeightAthleteKg * 1000l;
+        System.out.println("Спорсмену необходимо сбросить " + loseWeightAthleteGramm + " грамм.");
+        short weightLossGramm = 250;
+        long daysWeightLossGramm = loseWeightAthleteGramm / weightLossGramm;
+        System.out.println("Если спортсмен будет терять по " + weightLossGramm + " в день, то он похудеет на " + loseWeightAthleteKg + " кг. за " + daysWeightLossGramm + " дней.");
+        short weightLossGramm2 = 500;
+        long daysWeightLossGramm2 = loseWeightAthleteGramm / weightLossGramm2;
+        System.out.println("Если спортсмен будет терять по " + weightLossGramm2 + " в день, то он похудеет на " + loseWeightAthleteKg + " кг. за " + daysWeightLossGramm2 + " дней.");
+        long averageDaysWeightLossGramm = (daysWeightLossGramm + daysWeightLossGramm2) / 2;
+        System.out.println("В среднем спорстмен сбросит " + loseWeightAthleteKg + " кг. за " + averageDaysWeightLossGramm + " дней.");
+
+        System.out.println("Exercise 8");
+        int salaryMasha = 67760;
+        int salaryIncreasePercentage = 10;
+        int salaryIncreasetSumMasha = salaryMasha * salaryIncreasePercentage / 100;
+        int salaryMashaAfterRaise = salaryMasha + salaryIncreasetSumMasha;
+        byte monthYear = 12;
+        int salaryMashaYear = salaryMasha * monthYear;
+        int salaryMashaYearAfterRaise = salaryMashaAfterRaise * monthYear;
+        int salaryDifferenceMashaAfterRaise = salaryMashaYearAfterRaise % salaryMashaYear;
+        System.out.println("Маша теперь получает " + salaryMashaAfterRaise + " рублей. Годовой доход вырос на " + salaryDifferenceMashaAfterRaise + " рублей.");
+
+        int salaryDenic = 83690;
+        int salaryIncreaseSumDenic = salaryDenic * salaryIncreasePercentage / 100;
+        int salaryDenicAfterRaise = salaryDenic + salaryIncreaseSumDenic;
+        int salaryDenicYear = salaryDenic * monthYear;
+        int salaryDenicYearAfterRaise = salaryDenicAfterRaise * monthYear;
+        int salaryDifferenceDenicAfterRaise = salaryDenicYearAfterRaise % salaryDenicYear;
+        System.out.println("Денис теперь получает " + salaryDenicAfterRaise + " рублей. Годовой доход вырос на " + salaryDifferenceDenicAfterRaise + " рублей.");
+
+        int salaryKris = 76230;
+        int salaryIncreaseSumKris = salaryKris * salaryIncreasePercentage / 100;
+        int salaryKrisAfterRaise = salaryKris + salaryIncreaseSumKris;
+        int salaryKrisYear = salaryKris * monthYear;
+        int salaryKrisYearAfterRaise = salaryKrisAfterRaise * monthYear;
+        int salaryDifferenceKrisAfterRaise = salaryKrisYearAfterRaise % salaryKrisYear;
+        System.out.println("Кристина теперь получает " + salaryKrisAfterRaise + " рублей. Годовой доход вырос на " + salaryDifferenceKrisAfterRaise + " рублей.");
 
     }
 }
