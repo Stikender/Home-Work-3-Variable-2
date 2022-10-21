@@ -102,8 +102,8 @@ public class Main {
         System.out.println("Exercise 8");
         int salaryMasha = 67760;
         int salaryIncreasePercentage = 10;
-        int salaryIncreaseAmountMasha = salaryMasha * salaryIncreasePercentage / 100;
-        int salaryMashaAfterRaise = salaryMasha + salaryIncreaseAmountMasha;
+        int salaryIncreasetSumMasha = salaryMasha * salaryIncreasePercentage / 100;
+        int salaryMashaAfterRaise = salaryMasha + salaryIncreasetSumMasha;
         byte monthYear = 12;
         int salaryMashaYear = salaryMasha * monthYear;
         int salaryMashaYearAfterRaise = salaryMashaAfterRaise * monthYear;
@@ -111,16 +111,16 @@ public class Main {
         System.out.println("Маша теперь получает " + salaryMashaAfterRaise + " рублей. Годовой доход вырос на " + salaryDifferenceMashaAfterRaise + " рублей.");
 
         int salaryDenic = 83690;
-        int salaryIncreaseAmountDenic = salaryDenic * salaryIncreasePercentage / 100;
-        int salaryDenicAfterRaise = salaryDenic + salaryIncreaseAmountDenic;
+        int salaryIncreaseSumDenic = salaryDenic * salaryIncreasePercentage / 100;
+        int salaryDenicAfterRaise = salaryDenic + salaryIncreaseSumDenic;
         int salaryDenicYear = salaryDenic * monthYear;
         int salaryDenicYearAfterRaise = salaryDenicAfterRaise * monthYear;
         int salaryDifferenceDenicAfterRaise = salaryDenicYearAfterRaise % salaryDenicYear;
         System.out.println("Денис теперь получает " + salaryDenicAfterRaise + " рублей. Годовой доход вырос на " + salaryDifferenceDenicAfterRaise + " рублей.");
 
         int salaryKris = 76230;
-        int salaryIncreaseAmountKris = salaryKris * salaryIncreasePercentage / 100;
-        int salaryKrisAfterRaise = salaryKris + salaryIncreaseAmountKris;
+        int salaryIncreaseSumKris = salaryKris * salaryIncreasePercentage / 100;
+        int salaryKrisAfterRaise = salaryKris + salaryIncreaseSumKris;
         int salaryKrisYear = salaryKris * monthYear;
         int salaryKrisYearAfterRaise = salaryKrisAfterRaise * monthYear;
         int salaryDifferenceKrisAfterRaise = salaryKrisYearAfterRaise % salaryKrisYear;
